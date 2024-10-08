@@ -1,0 +1,172 @@
+.weather-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.weather-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.search-section {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+}
+
+.search-section label, .coordinates label {
+    font-weight: bold;
+}
+
+.search-section input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.span{
+    padding-left: 20px;
+}
+.results {
+    margin-top: 20px;
+   /*   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);Initial shadow 
+    transition: box-shadow 0.3s ease-in-out; */
+    width: 900px;
+    margin-left: 200px;
+}
+
+.results h2 {
+    font-size: 24px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure the h2 takes full width of its container */
+}
+.results p{
+    text-align: left; /* Align text to the left */
+}
+
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+.container {
+    display: flex; 
+    justify-content: flex-start; /* Align the boxes to the start */
+    align-items: flex-start; 
+}
+
+.search-section {
+    display: flex;
+    width: 100%; 
+    justify-content: space-between; /* Align the three boxes horizontally */
+}
+
+.boxOne, .boxTwo, .boxThree {
+    display: flex;
+    flex-direction: column; /* Display content vertically within each box */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+.boxOne{
+    display: flex;
+    flex-direction: column; /* This ensures the content inside each box is displayed vertically */
+    margin-left: 200px;
+    width: 300px; /* Optional: Add space between boxes */
+}
+
+
+.boxTwo{
+    display: flex;
+    flex-direction: column; /* This ensures the content inside each box is displayed vertically */
+    width: 30px; /* Optional: Add space between boxes */
+   
+}
+
+.boxThree{
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column; /* This ensures the content inside each box is displayed vertically */
+    margin-right: 280px; /* Optional: Add space between boxes */
+}
+
+
+.boxOne label, .boxTwo span, .boxThree label {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    text-align: left; /* Align text to the left */
+}
+
+.boxtwoContainer {
+    display: flex;
+    flex-direction: row; /* Display content inline within this container */
+    align-items: center; /* Vertically center align items */
+}
+
+.boxthreeContainer label, .boxthreeContainer input {
+    margin-right: 10px; /* Add space between labels and inputs */
+}
+
+.recentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) within the div */
+    margin-top: 0px;
+    height: 500px;
+    width: 200px;
+    border: 1px solid #333; /* Added border width and solid style */
+    padding: 10px; /* Added padding for spacing inside the div */
+    box-sizing: border-box; /* Include border in the element's total width and height */
+    overflow-y: auto; /* Add scrollbar if the content overflows */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    position: absolute; /* Use absolute positioning */
+    right: 5px; /* Align to the right edge of the container */
+    top: 50px; /* Align to the top edge of the container */
+}
+
+
+
+.recentDiv p {
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Add spacing between paragraphs */
+    text-align: left; /* Align text to the left */
+}
